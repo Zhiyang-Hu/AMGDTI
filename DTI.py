@@ -119,7 +119,6 @@ def main():
     meta_auc_best = None
     t = [4]
     for i in range(10):
-        # 开始训练
         modelmeta_s = Modelmeta(in_dims, args.n_hid, len(adjs_pt), t, cstr_source['Drug']).cuda()
         modelmeta_t = Modelmeta(in_dims, args.n_hid, len(adjs_pt), t, cstr_target['Drug']).cuda()
         optimizer_w = torch.optim.Adam(
