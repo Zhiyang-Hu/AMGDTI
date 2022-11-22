@@ -3,7 +3,6 @@ AMGDTI: Drug-target interaction prediction based on adaptive meta-graph learning
 
 # Model framework
 ![image](https://i.postimg.cc/4ywmGfKN/figure1.png)
-
 # Requirements
 - Pytorch
 - sklearn
@@ -23,8 +22,8 @@ To reproduce our results:
 - pro_pro.dat : Protein-Protein interaction matrix.
 - drug_drug.dat : Drug-Drug interaction matrix.
 - protein_dis.dat : Protein-Disease association matrix.
-- drug_dis : Drug-Disease association matrix.
-- drug_target : Drug-Protein interaction matrix.
-
+- drug_dis.dat : Drug-Disease association matrix.
+- drug_target.dat : Drug-Protein interaction matrix.
+These files: drug_smiles.csv, protein_fasta.csv, drug_se.dat, pro_pro.dat, drug_drug.dat, protein_dis.dat, drug_dis.dat, drug_target.dat from https://github.com/luoyunan/DTINet.
 # Contacts
 If you have any questions or comments, please feel free to email Zhiyang Hu (huzylife@163.com).
