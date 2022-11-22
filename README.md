@@ -12,7 +12,9 @@ AMGDTI: Drug-target interaction prediction based on adaptive meta-graph learning
 
 # Quick start
 To reproduce our results:
+
 1.Run pretreatment.py to adjs_offset.pkl, neg_ratings_offset.npy, node_types.npy, pos_ratings_offset.npy
+
 2.Run DTI.py to reproduce the cross validation results of AMGDTI with additional compound-protein binding affinity data. 
 
 # Data description
