@@ -93,8 +93,8 @@ def main():
                 node_feats.append(drug)
             if (k == 1):
                 pro = []
-                tokenizer = AutoTokenizer.from_pretrained("zjukg/OntoProtein")
-                model = AutoModelForMaskedLM.from_pretrained("zjukg/OntoProtein")
+                tokenizer = AutoTokenizer.from_pretrained("zjunlp/OntoProtein")
+                model = AutoModelForMaskedLM.from_pretrained("zjunlp/OntoProtein")
                 for param in model.parameters():
                     param.requires_grad_ = None
                 for i, p in enumerate(pn):
