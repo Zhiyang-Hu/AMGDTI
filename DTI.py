@@ -1,7 +1,5 @@
 import argparse
-import os
 import pickle
-
 import numpy as np
 import pandas as pd
 import scipy.sparse as sp
@@ -11,7 +9,6 @@ from sklearn.metrics import roc_auc_score, average_precision_score, accuracy_sco
 from torch import nn
 from tqdm import tqdm
 from transformers import AutoTokenizer,AutoModelForMaskedLM
-
 from model import Model as Modelpre
 from model_search import Model as Modelmeta
 from pretreatment import cstr_source, cstr_target
@@ -166,8 +163,6 @@ def main():
         avg_auc1.append(auc_best)
         avg_aupr1.append(aupr_best)
     print("AVG_AUC {}; AVG_AUPR {}".format(np.mean(avg_auc1), np.mean(avg_aupr1)))
-
-
 
 def train_meta(node_feats, node_types, adjs, pos_train, neg_train, pos_val, neg_val, model_s, model_t, optimizer_w, optimizer_a, eps,pos_test, neg_test):
 
