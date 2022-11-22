@@ -2,7 +2,8 @@
 AMGDTI: Drug-target interaction prediction based on adaptive meta-graph learning on heterogeneous network
 
 # Model framework
-[figure1.png](https://postimg.cc/q6hkXdX9)
+![image](https://i.postimg.cc/4ywmGfKN/figure1.png)
+
 # Requirements
 - Pytorch
 - sklearn
