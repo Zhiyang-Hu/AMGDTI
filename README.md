@@ -20,12 +20,12 @@ To reproduce our results:
 # Data description
 - drug_smiles.csv: list of drug names and smiles.
 - protein_fasta.csv: list of protein names and fasta.
-- drug_se.dat : Drug-SideEffect association matrix.
-- pro_pro.dat : Protein-Protein interaction matrix.
-- drug_drug.dat : Drug-Drug interaction matrix.
-- protein_dis.dat : Protein-Disease association matrix.
-- drug_dis.dat : Drug-Disease association matrix.
-- drug_target.dat : Drug-Protein interaction matrix.
+- drug_se.dat : Drug-SideEffect association pairs.
+- pro_pro.dat : Protein-Protein interaction pairs.
+- drug_drug.dat : Drug-Drug interaction pairs.
+- protein_dis.dat : Protein-Disease association pairs.
+- drug_dis.dat : Drug-Disease association pairs.
+- drug_target.dat : Drug-Protein interaction pairs.
 
 These files: drug_smiles.csv, protein_fasta.csv, drug_se.dat, pro_pro.dat, drug_drug.dat, protein_dis.dat, drug_dis.dat, drug_target.dat from https://github.com/luoyunan/DTINet.
 # Contacts
